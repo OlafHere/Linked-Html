@@ -1,0 +1,55 @@
+body {
+  background-image: url('foto2.jpg');
+  background-size: 100vh auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: #000;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+  padding: 15px;
+}
+
+.desk {
+  color: #000;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mengubah warna link agar tidak biru */
+.div1 a, .div2 a, .div3 a {
+  color: black !important; /* Warna hitam untuk semua link */
+  text-decoration: none !important; /* Hilangkan garis bawah */
+  font-weight: bold; /* Opsional: Membuat teks tebal */
+}
+
+.div1, .div2, .div3, .div4 {
+  color: black;
+  background-color: rgba(128, 128, 128, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+#footer {
+  color: black;
+  background-color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  padding: 15px;
+  border-radius: 50px;
+}
